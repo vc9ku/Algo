@@ -1,5 +1,3 @@
-# Algo
-
 
 //Exercice 1
 function addition(a, b) {
@@ -36,7 +34,7 @@ function addition(a, b) {
   
   //Exercice 4
   
-  function aireRectangle(longeur, largeur) {
+  function aireRectangle(longeur, largeur) { 
     return longeur * largeur
   }
   
@@ -45,6 +43,28 @@ function addition(a, b) {
   
   //Exercice 5
   
-  function estMajuscule("Hello") {
-    if ()
+function estMajuscule(chaine) {
+  if (chaine === chaine.toUpperCase())
+    return true
+    else {
+      return false
   }
+}
+console.log(estMajuscule("HELLO")); // Résultat attendu : true
+console.log(estMajuscule("Hello")); // Résultat attendu : false
+
+
+// Exercice 6
+
+function maxDeuxNombres(a, b) {
+  return b
+}
+console.log(maxDeuxNombres(5, 10)); // Résultat attendu : 10
+
+
+// Exercice 7
+
+function difference(a, b) {
+  // Écrire le code ici
+}
+console.log(difference(10, 3)); // Résultat attendu : 7
